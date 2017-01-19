@@ -20,25 +20,26 @@
   font-style: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  display: flex;
+}
+
 h1 {
   font-family: var(--font-stack-default);
   font-size: var(--font-size-xlarge);
   font-weight: bold;
-  letter-spacing: .5px;
 }
 
 h2 {
   font-family: var(--font-stack-default);
   font-size: var(--font-size-medium);
   font-weight: bold;
-  letter-spacing: .5px;
 }
 
 h3 {
   font-family: var(--font-stack-default);
   font-size: var(--font-size-small);
   font-weight: bold;
-  letter-spacing: .5px;
 }
 
 strong {
@@ -47,4 +48,10 @@ strong {
 
 em {
   font-style: italic;
+}
+
+p {
+  display: block;
+  margin: 5px 0;
+  line-height: 1.2em;
 }
