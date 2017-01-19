@@ -1,0 +1,9 @@
+@import "styles/variables";
+
+.index {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  margin: 9% auto;
+}
